@@ -31,7 +31,7 @@ url_get_reboot = "http://" + ip_router + ":" + port_router + "/log/in?un=" + use
 url_get_status = "http://" + ip_router + ":" + port_router + "/log/in?un=" + user_router + "&pw=" + pass_router + "&rd=%2Fuir%2Fstatus.htm&rd2=%2Fuir%2Fwanst.htm&Nrd=1"
 
 # Variable global to open URL
-url_root = url_get_status
+url_root = url_get_reboot
 
 print "Processing URL: %s" % url_root
 
